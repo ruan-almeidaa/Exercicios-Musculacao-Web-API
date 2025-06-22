@@ -6,4 +6,16 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Domain\Interfaces\" />
+    <Folder Include="Domain\UseCases\" />
+    <Folder Include="Controllers\" />
+    <Folder Include="Dtos\Input\" />
+    <Folder Include="Dtos\Output\" />
+    <Folder Include="Infra\Database\" />
+    <Folder Include="Infra\Base\" />
+    <Folder Include="Infra\Repositories\" />
+    <Folder Include="Helpers\" />
+  </ItemGroup>
+
 </Project>
