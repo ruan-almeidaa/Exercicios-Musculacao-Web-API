@@ -6,11 +6,19 @@ using System.Threading.Tasks;
 
 namespace Usuario.Models
 {
-    public class Credenciais
+    internal class Credenciais
     {
         public Guid Id { get; set; }
         public required Guid UsuarioId {  get; set; }
         public required string Email { get; set; }
         public required string Senha { get; set; }
+
+        public Credenciais(Guid id, Guid usuarioId, string email, string senha)
+        {
+            Id = id;
+            UsuarioId = usuarioId;
+            Email = email;
+            Senha = senha;
+        }
     }
 }

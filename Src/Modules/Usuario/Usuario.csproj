@@ -8,8 +8,8 @@
 
   <ItemGroup>
     <Folder Include="Domain\Interfaces\" />
-    <Folder Include="Domain\UseCases\" />
     <Folder Include="Controllers\" />
+    <Folder Include="Domain\Services\" />
     <Folder Include="Dtos\Input\" />
     <Folder Include="Dtos\Output\" />
     <Folder Include="Infra\Database\" />
